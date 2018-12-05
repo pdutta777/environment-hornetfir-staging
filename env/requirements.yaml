@@ -2,6 +2,9 @@ dependencies:
 - name: billing-api
   repository: http://jenkins-x-chartmuseum:8080
   version: 0.0.3
+- name: daas
+  repository: http://jenkins-x-chartmuseum:8080
+  version: 0.0.2
 - alias: expose
   name: exposecontroller
   repository: http://chartmuseum.jenkins-x.io
